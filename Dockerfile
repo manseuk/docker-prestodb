@@ -1,8 +1,9 @@
 # PRESTODB Docker Container
 FROM java:8
-MAINTAINER Arnaud Baali
 
-ENV PRESTO_DB_VERS 0.131
+MAINTAINER Paul Mansell
+
+ENV PRESTO_DB_VERS 0.168
 
 RUN apt-get update && apt-get install -y python
 
